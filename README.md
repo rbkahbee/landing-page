@@ -1,0 +1,1 @@
+My Landing Page project from The Odin Project where I will apply what I have learned so far with HTML, CSS, and flexbox.
