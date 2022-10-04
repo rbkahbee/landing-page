@@ -39,6 +39,10 @@ a {
     color: white;
 }
 
+.content {
+    flex: 1;
+}
+
 button {
     padding: 8px 32px;
     border-radius: 10px;
