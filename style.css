@@ -40,8 +40,40 @@ a {
 }
 
 button {
-    padding: 8px 24px;
+    padding: 8px 32px;
     border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.hero-container {
+    background-color: hsl(315,100%,26%);
+    color: white;
+    padding: 110px 140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-left {
+    width: 450px;
+}
+
+.button-1 {
+    background: hsl(37,91%,55%);
+    color: white;
+    margin: 8px 0;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+img {
+    height: 225px;
+    width: 450px;
+    object-fit: cover;
 }
 
 .footer {
