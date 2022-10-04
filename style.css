@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-    background-color: hsl(315,100%,26%);
+    background-color: hsl(315,63%,26%);
     color: white;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ button {
 }
 
 .hero-container {
-    background-color: hsl(315,100%,26%);
+    background-color: hsl(315,63%,26%);
     color: white;
     padding: 110px 140px;
     display: flex;
@@ -81,7 +81,7 @@ img {
 }
 
 .footer {
-    background-color: hsl(315,100%,26%);
+    background-color: hsl(315,63%,26%);
     color: white;
     padding: 32px;
     display: flex;
