@@ -83,13 +83,14 @@ img {
 .info-container {
     display: flex;
     justify-content: center;
-    color: #4a4a4a;
+    color: #1f2937;
     flex-wrap: wrap;
     gap: 8px;
     padding: 32px;
 }
 
 .info-header {
+    color: hsl(315,63%,20%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,6 +115,30 @@ img {
     text-align: center;
     margin-top: 8px;
     padding-bottom: 60px;
+}
+
+.quote-container {
+    background-color: hsl(315,100%,93%);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 90px 250px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.quote-source {
+    padding-top: 8px;
+    display: flex;
+    margin-left: auto;
+    font-weight: 500;
+    font-size: 22px;
 }
 
 .footer {
