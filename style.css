@@ -83,9 +83,9 @@ img {
 .info-container {
     display: flex;
     justify-content: center;
-    align-items: center;
     color: #4a4a4a;
     flex-wrap: wrap;
+    gap: 8px;
     padding: 32px;
 }
 
