@@ -46,7 +46,7 @@ a {
 button {
     padding: 8px 32px;
     border-radius: 10px;
-    border: none;
+    border-style: solid;
     font-size: 18px;
     font-weight: 600;
 }
@@ -67,6 +67,7 @@ button {
     background: hsl(37,91%,55%);
     color: white;
     margin: 8px 0;
+    border: none;
 }
 
 .hero-main {
@@ -123,7 +124,7 @@ img {
     align-items: center;
     justify-items: center;
     flex-direction: column;
-    padding: 90px 250px;
+    padding: 120px 250px;
 }
 
 .quote-text {
@@ -139,6 +140,37 @@ img {
     margin-left: auto;
     font-weight: 500;
     font-size: 22px;
+}
+
+.action-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 90px;
+}
+
+.action {
+    background-color: hsl(37,91%,55%);
+    width: 900px;
+    padding: 50px 90px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+}
+
+.action-title {
+    margin: 0;
+}
+
+.right-action {
+    margin-left: auto;
+}
+
+.button-2 {
+    background-color: hsl(37,91%,55%);
+    color: white;
+    border-color: white;
+    border-width: 3px;
 }
 
 .footer {
